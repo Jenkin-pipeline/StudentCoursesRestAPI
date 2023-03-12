@@ -1,4 +1,4 @@
-pioeline{
+pipeline{
     agent{label 'docker'}
     stages {
         stage('vcs') {
